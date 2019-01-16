@@ -8,24 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		AC806FC721EF290500FBCC81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC806FC621EF290500FBCC81 /* AppDelegate.m */; };
-		AC806FCA21EF290500FBCC81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC806FC921EF290500FBCC81 /* ViewController.m */; };
 		AC806FCD21EF290500FBCC81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC806FCB21EF290500FBCC81 /* Main.storyboard */; };
 		AC806FCF21EF290600FBCC81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC806FCE21EF290600FBCC81 /* Assets.xcassets */; };
 		AC806FD221EF290600FBCC81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC806FD021EF290600FBCC81 /* LaunchScreen.storyboard */; };
 		AC806FD521EF290600FBCC81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC806FD421EF290600FBCC81 /* main.m */; };
+		AC806FE121EF291F00FBCC81 /* NJJSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AC806FDC21EF291F00FBCC81 /* NJJSObject.m */; };
+		AC806FE221EF291F00FBCC81 /* NJBannerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC806FDF21EF291F00FBCC81 /* NJBannerDetailsViewController.m */; };
+		AC806FE321EF291F00FBCC81 /* NJBannerDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC806FE021EF291F00FBCC81 /* NJBannerDetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC806FC221EF290500FBCC81 /* JS_IOS 交互.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JS_IOS 交互.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC806FC521EF290500FBCC81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC806FC621EF290500FBCC81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AC806FC821EF290500FBCC81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AC806FC921EF290500FBCC81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AC806FCC21EF290500FBCC81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC806FCE21EF290600FBCC81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC806FD121EF290600FBCC81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC806FD321EF290600FBCC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC806FD421EF290600FBCC81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC806FDC21EF291F00FBCC81 /* NJJSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJJSObject.m; sourceTree = "<group>"; };
+		AC806FDD21EF291F00FBCC81 /* NJJSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJJSObject.h; sourceTree = "<group>"; };
+		AC806FDE21EF291F00FBCC81 /* NJBannerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJBannerDetailsViewController.h; sourceTree = "<group>"; };
+		AC806FDF21EF291F00FBCC81 /* NJBannerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJBannerDetailsViewController.m; sourceTree = "<group>"; };
+		AC806FE021EF291F00FBCC81 /* NJBannerDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NJBannerDetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,12 @@
 		AC806FC421EF290500FBCC81 /* JS_IOS 交互 */ = {
 			isa = PBXGroup;
 			children = (
+				AC806FDB21EF291F00FBCC81 /* JCObject */,
+				AC806FDE21EF291F00FBCC81 /* NJBannerDetailsViewController.h */,
+				AC806FDF21EF291F00FBCC81 /* NJBannerDetailsViewController.m */,
+				AC806FE021EF291F00FBCC81 /* NJBannerDetailsViewController.xib */,
 				AC806FC521EF290500FBCC81 /* AppDelegate.h */,
 				AC806FC621EF290500FBCC81 /* AppDelegate.m */,
-				AC806FC821EF290500FBCC81 /* ViewController.h */,
-				AC806FC921EF290500FBCC81 /* ViewController.m */,
 				AC806FCB21EF290500FBCC81 /* Main.storyboard */,
 				AC806FCE21EF290600FBCC81 /* Assets.xcassets */,
 				AC806FD021EF290600FBCC81 /* LaunchScreen.storyboard */,
@@ -69,6 +76,15 @@
 				AC806FD421EF290600FBCC81 /* main.m */,
 			);
 			path = "JS_IOS 交互";
+			sourceTree = "<group>";
+		};
+		AC806FDB21EF291F00FBCC81 /* JCObject */ = {
+			isa = PBXGroup;
+			children = (
+				AC806FDD21EF291F00FBCC81 /* NJJSObject.h */,
+				AC806FDC21EF291F00FBCC81 /* NJJSObject.m */,
+			);
+			path = JCObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +147,7 @@
 				AC806FD221EF290600FBCC81 /* LaunchScreen.storyboard in Resources */,
 				AC806FCF21EF290600FBCC81 /* Assets.xcassets in Resources */,
 				AC806FCD21EF290500FBCC81 /* Main.storyboard in Resources */,
+				AC806FE321EF291F00FBCC81 /* NJBannerDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC806FCA21EF290500FBCC81 /* ViewController.m in Sources */,
 				AC806FD521EF290600FBCC81 /* main.m in Sources */,
+				AC806FE221EF291F00FBCC81 /* NJBannerDetailsViewController.m in Sources */,
+				AC806FE121EF291F00FBCC81 /* NJJSObject.m in Sources */,
 				AC806FC721EF290500FBCC81 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
